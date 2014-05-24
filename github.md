@@ -3,10 +3,14 @@ github当地有一个respository
 *新增文件夹*
 文件名不能有中文字符和空白符。允许连字符
 要添加文件夹的时候就把文件夹拖到  drag  a respository here to add
+
 *查看文件夹内文件*
+文件也不能用中文名，会解析错误
 点击具体文件夹的右箭头，就可以看到此文件夹内的文件
+
 *commit*
-点击 uncommited changes 的show按钮，就可以看到文件夹内没有被commit的文件
+点击 uncommited changes 的show按钮，就可以看到文件夹内没有被commit的文件和文件内没有被commit的部分（一般是修改的部分），这些部分会被github用+ 和 - 高亮
+
 给这个文件添加summary 和description，点击commit to conclusion 就commit成功
 点击右上角sync，就可以同步到服务器上
 
@@ -14,4 +18,6 @@ github当地有一个respository
 collapse all——>收起
 github——>在github上查看
 revert——>在这份commit上重新commit
+
+history可以看到每次修改的commit
 
